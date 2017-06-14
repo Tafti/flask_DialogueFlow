@@ -1,1 +1,1 @@
-web: python hello_Mac:app
+web: gunicorn hello_Mac:app
