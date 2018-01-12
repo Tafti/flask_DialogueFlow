@@ -1,1 +1,1 @@
-web: gunicorn hello_Mac:app
+web: gunicorn -k eventlet app:app
